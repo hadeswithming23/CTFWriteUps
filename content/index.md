@@ -1,5 +1,5 @@
 ---
-title: Hi
+title: 
 date: 2025-03-19
 ---
 List the conjugate acid of the following:
