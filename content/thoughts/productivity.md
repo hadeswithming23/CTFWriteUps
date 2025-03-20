@@ -10,5 +10,3 @@ i feel like most of these apps make you spend so much time creating the perfect 
 
 i've been using obsidian for two days and all the extensions and the ways i can use obsidian through other things is already stressing me out 
 
-i also can't figure out how to use the @ mention things 
-
