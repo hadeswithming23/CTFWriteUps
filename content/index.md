@@ -1,8 +1,7 @@
 ---
-title: 
+title: index
 date: 2025-03-20
 tags:
-  - daily
 ---
 welcome to my [quartz](https://quartz.jzhao.xyz) garden 
 
