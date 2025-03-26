@@ -1,5 +1,5 @@
 ---
-title: 03.20.2025
+title: 
 date: 2025-03-20
 tags:
   - daily
