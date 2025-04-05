@@ -7,4 +7,5 @@ longform:
   scenes: []
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
+draft: true
 ---
