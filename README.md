@@ -1,2 +1,2 @@
 # CTFWriteUps
-A website that contains writes up for different CTF
+A website that contains writes up for different CTF challengs
