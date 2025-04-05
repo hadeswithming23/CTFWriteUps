@@ -1,9 +1,6 @@
 ---
-title: index
-date: 2025-03-20
-tags:
+title: Welcome to Quartz
 ---
-welcome to my [quartz](https://quartz.jzhao.xyz) garden 
 
-not sure what im gonna use this for other than [daily](/daily) notes and my [thoughts](/thoughts) on stuff (mostly just random yap)
-
+This is a blank Quartz installation.
+See the [documentation](https://quartz.jzhao.xyz) for how to get started.

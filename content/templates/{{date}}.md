@@ -1,6 +1,0 @@
----
-tags:
-  - daily
-date: "{{date}}"
----
-
