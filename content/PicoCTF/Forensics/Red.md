@@ -5,3 +5,5 @@ tags:
 ---
 ## Red
 ![[content/Assets/PicoCTFRed.png]]
+
+This is a ctf from
