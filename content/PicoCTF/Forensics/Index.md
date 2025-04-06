@@ -5,9 +5,9 @@ longform:
   workflow: Default Workflow
   sceneFolder: /
   scenes:
-    - Red
     - Phantom Intruder
+    - Red
+    - Verify
   sceneTemplate: templates/chapter.md
-  ignoredFiles:
-    - Untitled
+  ignoredFiles: []
 ---
