@@ -46,7 +46,7 @@ We replace the LSB of each color:
 
 `zsteg` analyzes image files (especially PNGs) to detect hidden messages, typically hidden using **LSB** or **bit-plane** techniques.
 
-![[zsteg red.png]]
+![[Red2.png]]
 
 ### 📘 Understanding the Output: `b1,rgba,lsb,xy`
 
@@ -78,4 +78,9 @@ Decode it and you will get the flag
 
 ```bash
 echo "cGljb0NURntyM2RfMXNfdGgzX3VsdDFtNHQzX2N1cjNfZjByXzU0ZG4zNTVffQ==" | base64 -d
+```
+
+Result:
+```text
+picoCTF{r3d_1s_th3_ult1m4t3_cur3_f0r_54dn355_} 
 ```

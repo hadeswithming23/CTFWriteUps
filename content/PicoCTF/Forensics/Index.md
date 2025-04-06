@@ -6,5 +6,8 @@ longform:
   sceneFolder: /
   scenes:
     - Red
-  ignoredFiles: []
+    - Phantom Intruder
+  sceneTemplate: templates/chapter.md
+  ignoredFiles:
+    - Untitled
 ---
