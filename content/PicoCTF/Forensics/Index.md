@@ -8,6 +8,8 @@ longform:
     - Phantom Intruder
     - Red
     - Verify
+    - Scan Surprise
+    - Secret of the Polyglot
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 ---
