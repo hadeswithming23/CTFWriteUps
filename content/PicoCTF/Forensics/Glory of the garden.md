@@ -12,7 +12,7 @@ date: 2025-04-07
 ## Solution
 From the description we will know that it is trying to tell us to examine the hexadecimal dumps of the file. Therefore, we can use commands like `xxd` or `strings`.
 
-![[Pasted image 20250407201033.png]]
+![[Glory of the garden 2.png]]
 
 **Result:**
 ```text

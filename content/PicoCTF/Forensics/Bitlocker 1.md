@@ -7,7 +7,7 @@ tags:
   - Bitlocker
 date: 2025-04-07
 ---
-![[Pasted image 20250407214452.png]]
+![[Bitlocker v1.png]]
 ## Solution
 From the description we can know that we need to use password cracking tool like `john the ripper` to crack the password and decrypt it using `dislocker`.
 
@@ -51,7 +51,7 @@ $bitlocker$3$16$2b71884a0ef66f0b9de049a82a39d15b$1048576$12$00be8a46ead6da010600
 - Can be attacked offline using tools like `john` or `hashcat` with appropriate modules.
 
 ### Step 2: Use `john the ripper` to crack the `hast.txt` using `rocklist.txt`
-![[Pasted image 20250407220729.png]]
+![[Bitlocker v1 2.png]]
 
 ### Step 3: Create mount points for decrypted and final files.
 ```bash
