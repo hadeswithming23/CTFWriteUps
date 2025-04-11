@@ -2,8 +2,13 @@
 title: Blast from the past
 draft: false
 tags:
+  - Forensic
+  - Medium
+  - Metadata
+  - Hexedit
+date: 2025-04-10
 ---
-
+![[Blast from the past.png]]
 
 
 ## Solution

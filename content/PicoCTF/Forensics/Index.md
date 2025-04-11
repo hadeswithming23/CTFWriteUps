@@ -5,20 +5,28 @@ longform:
   workflow: Default Workflow
   sceneFolder: /
   scenes:
-    - Phantom Intruder
-    - Red
     - Verify
-    - Scan Surprise
-    - Secret of the Polyglot
-    - Information
     - Bitlocker 1
+    - Bitlocker 2
+    - Blast from the past
     - Can You See
+    - Event-Viewing
     - Flags are stephic
     - Glory of the garden
-    - Bitlocker 2
-    - Event-Viewing
-    - Blast from the past
+    - Information
+    - Phantom Intruder
+    - Red
+    - Scan Surprise
+    - Secret of the Polyglot
+    - mob psycho
+    - Endianness-v2
+    - Dear Diary
+    - Pcap Poisoning
+    - MSB
+    - HideMe
+    - FindandOpen
+    - Torrent Analysis
   sceneTemplate: templates/chapter.md
-  ignoredFiles: []
-draft: true
+  ignoredFiles:
+    - Untitled
 ---
