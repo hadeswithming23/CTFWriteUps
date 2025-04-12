@@ -8,9 +8,9 @@ tags:
   - pcap
 date: 2025-04-12
 ---
-![[Pasted image 20250412235431.png]]
+![[Packets Primer2.png]]
 
-![[Pasted image 20250412235110.png]]
+![[Packets Primer.png]]
 
 **Flag:**
 ```text

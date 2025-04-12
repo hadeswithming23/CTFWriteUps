@@ -8,7 +8,7 @@ tags:
   - Redaction
 date: 2025-04-12
 ---
-![[Pasted image 20250412224606.png]]
+![[Redaction Gone Wrong.png]]
 ## Solution
 Just use the command `pdftotext` to get all the texts.
 

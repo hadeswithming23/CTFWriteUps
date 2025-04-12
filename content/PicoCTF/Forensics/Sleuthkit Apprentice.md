@@ -7,16 +7,16 @@ tags:
   - Disk
   - Easy
 ---
-![[Pasted image 20250412211504.png]]
+![[Sleuthkit Apprentice.png]]
 ## Solution 
 Analyze the disk using `Autopsy`. Especially looking into the `bash history`.
 
 ### Step 1: Analyze on the bash history
-![[Pasted image 20250412212428.png]]
+![[Sleuthkit Apprentice2.png]]
 It seems like he file is being saved in `/myfolder/flag.txt` and being encoded in flag.uni.txt.
 
 ### Step 2: Export and decode the file in UTF-16
-![[Pasted image 20250412212601.png]]
+![[Sleuthkit Apprentice3.png]]
 
 **Result:**
 ```text

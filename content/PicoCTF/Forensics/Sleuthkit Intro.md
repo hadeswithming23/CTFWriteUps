@@ -8,7 +8,7 @@ tags:
   - Easy
 date: 2025-04-12
 ---
-![[Pasted image 20250412210006.png]]
+![[Sleuthkit Intro.png]]
 ## Solution 
 Use `mmls` to find the size of the partition and submit to the checker program
 
