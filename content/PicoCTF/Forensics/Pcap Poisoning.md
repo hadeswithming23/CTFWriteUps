@@ -24,7 +24,7 @@ picoCTF{P64P_4N4L7S1S_SU55355FUL_31010c46}
 Alternatively, we can use Wireshark for packet analysis.
 
 ### Using Wireshark
-![[Pasted image 20250411155210.png]]
+![[Pcap Poisoning.png]]
 Using the display filter `tcp contains "pico"`, we narrow our search to 1 packet that contains our flag.
 
 ```text

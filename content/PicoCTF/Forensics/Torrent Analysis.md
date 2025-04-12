@@ -71,13 +71,29 @@ This reveals several packets, each containing different `info_hash` values. But 
 
 ```python
 import pyshark
+from collections import defaultdict
+
+# Load the pcap file with a display filter for BitTorrent DHT packets containing info_hash
 capture = pyshark.FileCapture('torrent.pcap', display_filter='bt-dht contains "info_hash"')
-info_hashs = []
+
+# Dictionary to count occurrences of each info_hash
+info_hash_counts = defaultdict(int)
+
+# Process each packet
 for pkt in capture:
-	info_hash = pkt.layers[3].get_field_by_showname('info_hash').showname_value
-	if info_hash not in info_hashs:
-	    print(info_hash)
-	    info_hashs.append(info_hash)
+    try:
+        # Extract the info_hash field from the packet
+        info_hash = pkt.layers[3].get_field_by_showname('info_hash').showname_value
+        info_hash_counts[info_hash] += 1
+    except Exception as e:
+        # Skip packets that do not have the expected structure
+        print(f"Error processing packet: {e}")
+        continue
+
+# Display the results
+print("\nInfo Hash Counts:")
+for info_hash, count in sorted(info_hash_counts.items(), key=lambda x: x[1], reverse=True):
+    print(f"{info_hash}: {count} times")
 ```
 
 
@@ -85,7 +101,15 @@ for pkt in capture:
 ### 🧾 Output:
 
 ```text
-17d62de1495d4404f6fb385bdfd7ead5c897ea22 17c1e42e811a83f12c697c21bed9c72b5cb3000d d59b1ce3bf41f1d282c1923544629062948afadd 078e18df4efe53eb39d3425e91d1e9f4777d85ac 7af6be54c2ed4dcb8d17bf599516b97bb66c0bfd 17c0c2c3b7825ba4fbe2f8c8055e000421def12c 17c02f9957ea8604bc5a04ad3b56766a092b5556 e2467cbf021192c241367b892230dc1e05c0580e
+Info Hash Counts:
+e2467cbf021192c241367b892230dc1e05c0580e: 29 times
+17d62de1495d4404f6fb385bdfd7ead5c897ea22: 1 times
+17c1e42e811a83f12c697c21bed9c72b5cb3000d: 1 times
+d59b1ce3bf41f1d282c1923544629062948afadd: 1 times
+078e18df4efe53eb39d3425e91d1e9f4777d85ac: 1 times
+7af6be54c2ed4dcb8d17bf599516b97bb66c0bfd: 1 times
+17c0c2c3b7825ba4fbe2f8c8055e000421def12c: 1 times
+17c02f9957ea8604bc5a04ad3b56766a092b5556: 1 times
 ```
 
 
@@ -100,7 +124,8 @@ Search the hash online on a **torrent hash lookup site** (like [btindex.org](htt
 ### ✅ Result:
 
 ```text
-Info Hash: e2467cbf021192c241367b892230dc1e05c0580e   File Name: ubuntu-19.10-desktop-amd64.iso
+Info Hash: e2467cbf021192c241367b892230dc1e05c0580e
+File Name: ubuntu-19.10-desktop-amd64.iso
 ```
 
 

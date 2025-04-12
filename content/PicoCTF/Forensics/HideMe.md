@@ -7,7 +7,7 @@ tags:
   - Easy
 date: 2025-04-11
 ---
-![[Pasted image 20250411171804.png]]
+![[HideMe.png]]
 ## Solution 
 Based on the challenge file, it is a `.png` which means we can use `zsteg` to check whether there is hidden data.
 
@@ -50,7 +50,7 @@ warning [flag.png]:  39739 extra bytes at beginning or within zipfile
 eog secret/flag.png
 ```
 
-![[Pasted image 20250411172926.png]]
+![[HideMe 2.png]]
 
 **Result:**
 ```text

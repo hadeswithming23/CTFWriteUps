@@ -26,6 +26,11 @@ longform:
     - HideMe
     - FindandOpen
     - Torrent Analysis
+    - St3g0
+    - Sleuthkit Intro
+    - Sleuthkit Apprentice
+    - Redaction Gone Wrong
+    - Packets Primer
   sceneTemplate: templates/chapter.md
   ignoredFiles:
     - Untitled

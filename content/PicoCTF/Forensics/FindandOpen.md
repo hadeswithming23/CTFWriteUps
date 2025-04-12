@@ -8,12 +8,12 @@ tags:
   - Networking
 date: 2025-04-11
 ---
-![[Pasted image 20250411222147.png]]
+![[FindAndOpen.png]]
 ## Solution
 From the description, there is one zip file which contains the flag, and the `pcap` file contains the password to unzip the file.
 
 ### Step 1: Analyze the `pcap` file to find the password
-![[Pasted image 20250411221955.png]]
+![[FindAndOpen2.png]]
 
 ```bash
 ┌──(kali㉿kali)-[~/Downloads/picoCTF]

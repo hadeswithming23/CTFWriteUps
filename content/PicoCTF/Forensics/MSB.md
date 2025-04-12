@@ -8,7 +8,7 @@ tags:
   - sigBits
 date: 2025-04-11
 ---
-![[Pasted image 20250411162755.png]]
+![[MSB.png]]
 ## Solution
 From the description, we can know that the data are probably encrypted in MSB instead of LSB. Therefore, we can use a tool called `sigBits` that is able to extract data from LSB or MSB.
 
