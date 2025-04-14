@@ -31,7 +31,11 @@ longform:
     - Sleuthkit Apprentice
     - Redaction Gone Wrong
     - Packets Primer
+    - Operation Orchid
+    - Operation Oni
+    - Eavesdropping
   sceneTemplate: templates/chapter.md
   ignoredFiles:
+    - Untitled
     - Untitled
 ---

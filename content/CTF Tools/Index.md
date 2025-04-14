@@ -6,6 +6,7 @@ longform:
   sceneFolder: /
   scenes:
     - sigBits
+    - basez
   sceneTemplate: templates/chapter.md
   ignoredFiles: []
 ---
