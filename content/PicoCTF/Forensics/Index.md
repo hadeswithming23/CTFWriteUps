@@ -34,6 +34,7 @@ longform:
     - Operation Orchid
     - Operation Oni
     - Eavesdropping
+    - WPA-ing-out
   sceneTemplate: templates/chapter.md
   ignoredFiles:
     - Untitled
